@@ -32,7 +32,7 @@ Mesh::Mesh(glm::mat4 transform, const char* file_path, Material * material) : Ob
 	indexVBO(tmp_positions, tmp_uvs, tmp_normals, indices_, positions_, uvs_, normals_);
 
 	std::cout << "Building octree for mesh." << std::endl;
-	ot_aabb_ = new OctTreeAABB(this);
+	ot_aabb_ = new BVHTree(this);
 	std::cout << "Octree built." << std::endl;
 }
 

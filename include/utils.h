@@ -98,6 +98,7 @@ struct IntersectionData
 	Material material; // Material of the object hit by the ray
 	glm::vec3 normal; // Normal of the surface hit by the ray
 	float t; // The distance the ray travelled before intersecting
+	IntersectionData() {t = 1e9;}
 };
 
 struct LightSourceIntersectionData
@@ -106,6 +107,7 @@ struct LightSourceIntersectionData
 	float area; // The area of the light source [m^2]
 	glm::vec3 normal; // Normal of the surface hit by the ray
 	float t; // The distance the ray travelled before intersecting
+	LightSourceIntersectionData() {t = 1e9;}
 };
 
 SpectralDistribution evaluatePerfectBRDF(

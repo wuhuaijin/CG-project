@@ -1,7 +1,7 @@
 #ifndef OBJECT_3D
 #define OBJECT_3D
 
-#include "OctTreeAABB.h"
+#include "BVHTree.h"
 
 #include <vector>
 
@@ -29,9 +29,10 @@ private:
 	std::vector<unsigned int> indices_;
 
 	glm::mat4 transform_;
-	OctTreeAABB* ot_aabb_;
+	BVHTree* ot_aabb_;
 
-	friend class OctNodeAABB;
+	friend class BVHNode;
+	friend struct AABB;
 public:
 	Mesh(glm::mat4 transform, const char* file_path, Material * material);
 	~Mesh(){ delete ot_aabb_; };
