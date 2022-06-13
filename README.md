@@ -63,13 +63,15 @@ cmake ..
 make
 ```
 
-This will generate build files in the folder "build" of the cloned repository, which can be used to build the program. It mail fail if version of g++ or gcc dismatch, please check 4th and 5th lines of `CMakeLists.txt`.
+This will generate build files in the folder `build` of the cloned repository, which can be used to build the program. It mail fail if version of g++ or gcc dismatch, please check 4th and 5th lines of `CMakeLists.txt`.
 
 ### **Usage**
 
 ```
 ./global_illumination ../data/scenes/xxxx.xml
 ```
+
+After rendering is finished, you can find the generated xml file in folder `build`.
 
 ### **ResourcesList**
 
