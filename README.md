@@ -52,6 +52,25 @@ week 5: Discuss the ways to optimize the results and implement some optimization
 
 week 6: Draw a conclusion of our work. Make the video, write our paper and prepare for the presentation.
 
+### **Building**
+
+```
+git clone https://github.com/wuhuaijin/CG-project
+cd CG-project
+mkdir build
+cd build
+cmake ..
+make
+```
+
+This will generate build files in the folder "build" of the cloned repository, which can be used to build the program. It mail fail if version of g++ or gcc dismatch, please check 4th and 5th lines of `CMakeLists.txt`.
+
+### **Usage**
+
+```
+./global_illumination ../data/scenes/xxxx.xml
+```
+
 ### **ResourcesList**
 
 - [Physically Based Rendering](http://www.pbr-book.org/) - Matt Pharr, Wenzel Jakob and Greg Humphreys
