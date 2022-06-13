@@ -20,38 +20,6 @@ The challenge lies in building a rendering system from scratch, from which we ca
 
 A key tool for getting many effects accurately in a ray tracer is Monte-Carlo integration. (We will solve this by learning) So we will learn basic monte carlo methods for ray tracing, then read other related papers and theories to implement further techniques to get better effects or shorten the running time.
 
-### **Goals and Deliverables**
-
-1）Implement a cpu(maybe GPU) renderer using Monte-Carlo ray tracing algorithm
-
-2）Use KDTree to accelerate(different from the BVH we have implemented in scotty3d)
-
-3）Implement parallelization using openMP
-
-4）Implement XML parser to load XML files
-
-5）Implement more graphic techniques (one or more ):
-
-1. photon mapping
-2. Make different wavelengths refract a different amount and increase the number of wavelengths.(this can achieve rainbow effects from refraction)
-3. micro facet model
-
-Our baseline plan: implement a renderer using Monte Carlo ray tracing algorithm to at least get the image as well as our scotty3d. What we expect is to have a higher quality and render faster. We also hope our system can achieve some fancy contents, including rainbow effects from refraction and micro facet. We evaluate our results by the scene we finally get.
-
-### **Schedule**
-
-week 1: Read related websites and papers and learn about detailed theories of Monte-Carlo ray tracing algorithm
-
-week 2: Build the basic framework of code 
-
-week 3: Realize the framework of code
-
-week 4: Debug and test the code/see how it works
-
-week 5: Discuss the ways to optimize the results and implement some optimizations
-
-week 6: Draw a conclusion of our work. Make the video, write our paper and prepare for the presentation.
-
 ### **Building**
 
 ```
