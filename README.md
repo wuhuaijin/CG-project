@@ -25,7 +25,7 @@ cmake ..
 make
 ```
 
-This will build files in the folder `build` of the cloned repository, which can be used to build the program. It mail fail if version of g++ or gcc dismatch, please check 4th and 5th lines of `CMakeLists.txt`.
+This will build files in the folder `build` of the cloned repository, which can be used to build the program. Cmake mail fail if version of g++ or gcc dismatches `CMakeLists.txt`, please check 4th and 5th lines of `CMakeLists.txt`.
 
 ### **Usage**
 
