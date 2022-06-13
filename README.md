@@ -14,6 +14,8 @@ Ruofan Xu, Xinyi Shi, Huaijin Wu
 
 ### **Building**
 
+Parameters in `main.cpp` can be modified in order to set resolution and subsampling . Then build the excutable:
+
 ```
 git clone https://github.com/wuhuaijin/CG-project
 cd CG-project
@@ -27,11 +29,15 @@ This will build files in the folder `build` of the cloned repository, which can 
 
 ### **Usage**
 
+Use the excutable you generated in folder `build`, and choose the scene you want to render:
+
 ```
 ./global_illumination ../data/scenes/xxxx.xml
 ```
 
-After rendering is finished, you can find the generated xml file in folder `build`.
+After rendering is finished, you can find the generated xml file in the folder `build`.
+
+OR you can simply use the excutable we provide(in the folder `results`). 
 
 ### **ResourcesList**
 
