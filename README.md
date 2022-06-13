@@ -12,14 +12,6 @@ A program for rendering virtual 3D scenes with the optimized Monte Carlo ray tra
 
 Ruofan Xu, Xinyi Shi, Huaijin Wu
 
-### **Problem Description**
-
-When rendering images we often strive for photo realism. In order to solve this, we need to solve the global illumination problem, which means simulating how light behaves in the real world. In this project, we'll use Monte Carlo ray tracing algorithm to simulate many light phenomena, such as color bleeding, soft shadows, reflection and refraction.
-
-The challenge lies in building a rendering system from scratch, from which we can learn a big picture of rendering and get more familiar with global illumination. Through implementing different techniques, we can learn how to improve the quality of rendered images step by step.
-
-A key tool for getting many effects accurately in a ray tracer is Monte-Carlo integration. (We will solve this by learning) So we will learn basic monte carlo methods for ray tracing, then read other related papers and theories to implement further techniques to get better effects or shorten the running time.
-
 ### **Building**
 
 ```
